@@ -8,5 +8,8 @@ Fast API is based on Open API specifications, these can be found here: https://g
 Folder with tutorials I wrote to fully understand Fast API:
 - [Python Types](/jupyter-notebooks/python-types.ipynb)
 
+Next steps:
+- https://fastapi.tiangolo.com/async/
+
 Pending:
 - Pydantic: https://docs.pydantic.dev/latest/
