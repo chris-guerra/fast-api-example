@@ -1,4 +1,5 @@
-# fast-api-example
+# Fast API Tutorial
+
 This is an example of a project in FastAPI considering every aspect of it's documentation. It includes tutorials on each section. You can see more information on my medium series: **[FastAPI 101](https://medium.com/@christianguerra_50018/list/fast-api-101-dc8320138c86)**.
 
 # Tutorials
@@ -6,3 +7,36 @@ This is an example of a project in FastAPI considering every aspect of it's docu
 - Part 2: Concurrency and Async / Await. [**[Jupyter Notebook](/jupyter-notebooks/2-concurrency-and-async-await.ipynb)**] [**[Medium Article](https://medium.com/@christianguerra_50018/fastapi-101-part-2-concurrency-parallelism-and-async-await-abad244e6740)**]
 - Part 3: You know Python but… How do we create our first project? [**[Medium Article](https://pub.towardsai.net/fastapi-101-part-3-you-know-python-but-how-do-we-create-our-first-project-2dae308cb566)**]
 - Part 4: Hello World… Creating Our First API [**[Source Code](/src/main.py)**][**[Medium Article](https://pub.towardsai.net/fastapi-101-part-4-hello-world-creating-our-first-api-7ef2864bc601)**]
+
+
+## Repository Set-Up
+
+### Step 1: Create Virtual Environment
+
+1. Open Terminal
+2. Create Virtual Environment:
+```bash
+python3 -m venv .venv
+```
+3. Activate Virtual Environment:
+```bash
+source .venv/bin/activate
+```
+
+### Step 2: Install Dependencies
+
+To install necesary dependencies, execute the following command in the active virtual environment.
+
+```bash
+pip install -r requirements.txt
+```
+
+### Deactivate Virtual Environment
+
+If you wish to deactivate your virtual environment.
+
+1. Open Terminal
+2. Deactivate Virtual Environment:
+```bash
+deactivate
+```
